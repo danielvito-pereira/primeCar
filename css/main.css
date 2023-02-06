@@ -103,6 +103,7 @@ body {
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 .header {
@@ -235,6 +236,109 @@ body {
 }
 .main .about .information .img {
   width: 50%;
+}
+.main .benefits {
+  background: #1A191A;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  gap: 9.25rem;
+}
+.main .benefits .texto {
+  max-width: 1284px;
+  max-height: 262px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.main .benefits .texto .h2 {
+  font-family: "American Captain";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+.main .benefits .texto .p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+.main .benefits .cards {
+  width: 90%;
+  max-width: 120rem;
+  gap: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.main .benefits .cards .card {
+  width: 26.875rem;
+  height: 25rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.main .benefits .cards .card .infos {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+.main .benefits .cards .card .infos .imagem {
+  position: relative;
+  top: -105px;
+  left: 0;
+  right: 0;
+}
+.main .benefits .cards .card .infos .information {
+  max-width: 362px;
+  max-height: 174px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.main .benefits .cards .card .infos .information .h3 {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.main .benefits .cards .card .infos .information .p {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.main .-verde {
+  background-color: rgba(0, 221, 168, 0.5019607843);
+}
+.main .-marron {
+  background: rgba(207, 41, 41, 0.6);
+}
+.main .-azul {
+  background: rgba(0, 88, 221, 0.6);
 }
 
 /*# sourceMappingURL=main.css.map */
